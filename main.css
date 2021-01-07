@@ -21,6 +21,7 @@ div {
 }
 
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
     color: #696F89;
     width: 100%; 
@@ -35,7 +36,7 @@ p {
     color: #696F89;
 }
 
-p {
+p:nth-last-of-type(1) {
     display: inline-block; 
     width: 100%; 
     font-size: 14px;
